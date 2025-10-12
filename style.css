@@ -721,6 +721,7 @@ footer p {
     }
 }
 
+
 @media (max-width: 768px) {
     header {
         flex-wrap: wrap;
@@ -774,8 +775,10 @@ footer p {
         grid-template-columns: 1fr;
     }
 
+
+
     /* Hero responsive adjustments */
-    .welcome-subtitle {
+    h2 .welcome-subtitle {
         font-size: 1rem;
         text-align: center;
         margin-bottom: 8px;
