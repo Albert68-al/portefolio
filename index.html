@@ -61,6 +61,8 @@
                     <a href="#competences" class="en-content">Skills</a>
                     <a href="#projets" class="fr-content">Projets</a>
                     <a href="#projets" class="en-content">Projects</a>
+                    <a href="#gallery" class="fr-content">Galerie</a>
+                    <a href="#gallery" class="en-content">Gallery</a>
                     <a href="#contact" class="fr-content">Contact</a>
                     <a href="#contact" class="en-content">Contact</a>
                 </div>
@@ -139,7 +141,11 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="images/hero.png" alt="Image Professionnelle" class="animate-image" loading="lazy">
+                <div class="card">
+                    <div class="content">
+                        <img src="images/hero.png" alt="Image Professionnelle" class="animate-image" loading="lazy">
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -292,6 +298,143 @@
             </div>
         </section>
 
+        <!--Section pour la gallerie de mes design-->
+
+        <section id="gallery" class="section">
+            <h2 class="fr-content">Gallerie Design</h2>
+            <h2 class="en-content">Design Gallery</h2>
+
+            <div class="gallery-container">
+                <!-- Filtres par catégorie -->
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">
+                        <span class="fr-content">Tout</span>
+                        <span class="en-content">All</span>
+                    </button>
+                    <button class="filter-btn" data-filter="logo">
+                        Logos
+                    </button>
+                    <button class="filter-btn" data-filter="ui">
+                        UI/UX
+                    </button>
+                    <button class="filter-btn" data-filter="Card">
+                        Cards
+                    </button>
+                    <button class="filter-btn" data-filter="print">
+                        Print
+                    </button>
+                </div>
+
+                <!-- Carrousel -->
+                <div class="carousel-container">
+                    <div class="carousel-track">
+
+                        <div class="gallery-item" data-category="logo">
+                            <div class="gallery-img">
+                                <img src="images/Design/AL logo.png" alt="Logo Design 1" loading="lazy">
+                                <div class="gallery-overlay">
+                                    <h3>Logo Design</h3>
+                                    <p class="fr-content">Création d'identité visuelle pour une marque de AL COMPANY
+                                    </p>
+                                    <p class="en-content">Visual identity for an Al company</p>
+                                    <div class="gallery-tags">
+                                        <span>Logo</span>
+                                        <span>Branding</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="ui">
+                            <div class="gallery-img">
+                                <img src="images/ui1.jpg" alt="UI Design 1" loading="lazy">
+                                <div class="gallery-overlay">
+                                    <h3>Application Mobile</h3>
+                                    <p class="fr-content">Design d'interface utilisateur pour une application de fitness
+                                    </p>
+                                    <p class="en-content">User interface design for a fitness app</p>
+                                    <div class="gallery-tags">
+                                        <span>UI/UX</span>
+                                        <span>Mobile</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="gallery-item" data-category="Card">
+                            <div class="gallery-img">
+                                <img src="images/Design/card.jpg" alt="Card Design 1" loading="lazy">
+                                <div class="gallery-overlay">
+                                    <h3>Carte de Visite</h3>
+                                    <p class="fr-content">Conception de carte de visite professionnelle pour un
+                                        consultant
+                                    </p>
+                                    <p class="en-content">Professional business card design for a consultant</p>
+                                    <div class="gallery-tags">
+                                        <span>Card</span>
+                                        <span>Professionnel</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="Card">
+                            <div class="gallery-img">
+                                <img src="images/Design/card2.jpg" alt="Card Design 1" loading="lazy">
+                                <div class="gallery-overlay">
+                                    <h3>Carte de Visite</h3>
+                                    <p class="fr-content">Conception de carte de visite professionnelle pour un
+                                        consultant
+                                    </p>
+                                    <p class="en-content">Professional business card design for a consultant</p>
+                                    <div class="gallery-tags">
+                                        <span>Card</span>
+                                        <span>Professionnel</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="gallery-item" data-category="print">
+                            <div class="gallery-img">
+                                <img src="images/Design/AFFICHE1.jpg" alt="Affiche JakiFood" loading="lazy">
+                                <div class="gallery-overlay">
+                                    <h3>Affiche JakiFood</h3>
+                                    <p class="fr-content">Conception d'affiche pour un restaurant de cuisine Congolaise
+                                    </p>
+                                    <p class="en-content">Poster design for a Congolese cuisine restaurant</p>
+                                    <div class="gallery-tags">
+                                        <span>Print</span>
+                                        <span>Événementiel</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Contrôles du carrousel -->
+                    <button class="carousel-control prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-control next"><i class="fas fa-chevron-right"></i></button>
+
+                    <!-- Indicateurs de pagination -->
+                    <div class="carousel-pagination"></div>
+                </div>
+
+                <!-- Description détaillée -->
+                <div class="gallery-details">
+                    <div class="details-content">
+                        <h3 class="details-title"></h3>
+                        <p class="details-description fr-content"></p>
+                        <p class="details-description en-content"></p>
+                        <div class="details-tags"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="section">
             <h2 class="fr-content">Contactez-moi</h2>
             <h2 class="en-content">Contact Me</h2>
@@ -328,6 +471,8 @@
                 <a href="#competences" class="en-content">Skills</a>
                 <a href="#projets" class="fr-content">Projets</a>
                 <a href="#projets" class="en-content">Projects</a>
+                <a href="#gallery" class="fr-content">Galerie</a>
+                <a href="#gallery" class="en-content">Gallery</a>
                 <a href="#contact" class="fr-content">Contact</a>
                 <a href="#contact" class="en-content">Contact</a>
             </div>
@@ -335,6 +480,7 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="gallery.js"></script>
 </body>
 
 </html>
